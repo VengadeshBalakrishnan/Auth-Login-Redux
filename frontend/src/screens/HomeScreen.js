@@ -1,5 +1,5 @@
 const HomeScreen = () => {
-  return <h1>User Authentication with Redux Toolkit & JWTs</h1>
+  return <h1>Authentication of user with Redux and JWT</h1>
 }
 
-export default HomeScreen
+export default HomeScreen;

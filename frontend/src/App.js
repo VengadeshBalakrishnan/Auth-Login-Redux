@@ -17,7 +17,7 @@ function App() {
           <Route path='/login' element={<LoginScreen />} />
           <Route path='/register' element={<RegisterScreen />} />
           <Route element={<ProtectedRoute />}>
-            <Route path='/user-profile' element={<ProfileScreen />} />
+            <Route path='/my-profile' element={<ProfileScreen />} />
           </Route>
         </Routes>
       </main>

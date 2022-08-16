@@ -6,17 +6,14 @@ import { useEffect } from 'react'
 import Error from '../components/Error'
 
 const LoginScreen = () => {
-  const { loading, userInfo, error } = useSelector((state) => state.user)
-  const dispatch = useDispatch()
+  const { loading, userInfo, error } = useSelector((state) => state.user);
+  const dispatch = useDispatch();
+  const { register, handleSubmit } = useForm();
+  const navigate = useNavigate();
 
-  const { register, handleSubmit } = useForm()
-
-  const navigate = useNavigate()
-
-  // redirect authenticated user to profile screen
   useEffect(() => {
     if (userInfo) {
-      navigate('/user-profile')
+      navigate('/my-profile')
     }
   }, [navigate, userInfo])
 
@@ -52,4 +49,4 @@ const LoginScreen = () => {
   )
 }
 
-export default LoginScreen
+export default LoginScreen;

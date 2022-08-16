@@ -5,11 +5,9 @@ const ProfileScreen = () => {
   const { userInfo } = useSelector((state) => state.user)
 
   return (
-    <div>
-      <figure>{userInfo?.firstName.charAt(0).toUpperCase()}</figure>
+    <div>      
       <span>
-        Welcome <strong>{userInfo?.firstName}!</strong> You can view this page
-        because you're logged in
+        Welcome <strong>{userInfo?.firstName}!</strong> - Sucessfully logged in.......
       </span>
     </div>
   )
