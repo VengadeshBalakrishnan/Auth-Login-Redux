@@ -1,7 +1,10 @@
-### Mongo DB Createion
+### Mongo DB Creation
+
+```
 Install Mongo DB
 Create database 
 Copy the URL and pass to the .env configuration...
+```
 
 ### Environment Variables
 ```
