@@ -7,6 +7,9 @@ Copy the URL and pass to the .env configuration...
 ```
 
 ### Environment Variables
+
+Create .env file and paste the below content
+
 ```
 NODE_ENV = development
 PORT = 5000
